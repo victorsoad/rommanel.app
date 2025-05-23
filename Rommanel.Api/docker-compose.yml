@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  customerapp.api:
+    build:
+      context: ./src/api/rommanel.Api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src/api/data/rommanel.db:/app/rommanel.db
+    environment:
+      - ASPNETCORE_URLS=http://+:5000

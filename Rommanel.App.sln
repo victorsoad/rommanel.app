@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Api", "Rommanel.Api\Rommanel.Api.csproj", "{3B005576-ABD8-4D4C-B8D5-43B2695F760C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C8959991-87B3-4EA4-BC21-814F521EC846}"
+	ProjectSection(SolutionItems) = preProject
+		Rommanel.Api\README.md = Rommanel.Api\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rommanel.Api", "Rommanel.Api", "{FE9D4A21-2541-49B8-8162-0353CB6E97F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rommanel.Application", "Rommanel.Application", "{1A89E34A-4673-48A3-B7F5-839793A78D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rommanel.Domain", "Rommanel.Domain", "{E95C0FA6-C966-4450-8A7F-5F64A7F7D01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Application", "Rommanel.Application\Rommanel.Application.csproj", "{780826F7-8B38-4B69-8CDB-69C9153140E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Domain", "Rommanel.Domain\Rommanel.Domain.csproj", "{7E141859-F16E-4C7F-8053-7F3FA057172D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rommanel.Infrastructure", "Rommanel.Infrastructure", "{055DEA38-5DBD-405D-8084-980F0418DC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Infrastructure", "Rommanel.Infrastructure\Rommanel.Infrastructure.csproj", "{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7A0F0D9-9FCB-4CCA-A9CF-B0F89772133D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rommanel.Tests", "Rommanel.Tests\Rommanel.Tests.csproj", "{5E238A7D-A0C9-411D-A45D-4E17A5468CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B005576-ABD8-4D4C-B8D5-43B2695F760C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B005576-ABD8-4D4C-B8D5-43B2695F760C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B005576-ABD8-4D4C-B8D5-43B2695F760C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B005576-ABD8-4D4C-B8D5-43B2695F760C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780826F7-8B38-4B69-8CDB-69C9153140E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780826F7-8B38-4B69-8CDB-69C9153140E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780826F7-8B38-4B69-8CDB-69C9153140E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780826F7-8B38-4B69-8CDB-69C9153140E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E141859-F16E-4C7F-8053-7F3FA057172D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E141859-F16E-4C7F-8053-7F3FA057172D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E141859-F16E-4C7F-8053-7F3FA057172D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E141859-F16E-4C7F-8053-7F3FA057172D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E238A7D-A0C9-411D-A45D-4E17A5468CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E238A7D-A0C9-411D-A45D-4E17A5468CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E238A7D-A0C9-411D-A45D-4E17A5468CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E238A7D-A0C9-411D-A45D-4E17A5468CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B005576-ABD8-4D4C-B8D5-43B2695F760C} = {FE9D4A21-2541-49B8-8162-0353CB6E97F1}
+		{FE9D4A21-2541-49B8-8162-0353CB6E97F1} = {C8959991-87B3-4EA4-BC21-814F521EC846}
+		{1A89E34A-4673-48A3-B7F5-839793A78D83} = {C8959991-87B3-4EA4-BC21-814F521EC846}
+		{E95C0FA6-C966-4450-8A7F-5F64A7F7D01D} = {C8959991-87B3-4EA4-BC21-814F521EC846}
+		{780826F7-8B38-4B69-8CDB-69C9153140E7} = {1A89E34A-4673-48A3-B7F5-839793A78D83}
+		{7E141859-F16E-4C7F-8053-7F3FA057172D} = {E95C0FA6-C966-4450-8A7F-5F64A7F7D01D}
+		{055DEA38-5DBD-405D-8084-980F0418DC52} = {C8959991-87B3-4EA4-BC21-814F521EC846}
+		{814A401D-CB5B-4A1E-8BFD-97FA9451D5DF} = {055DEA38-5DBD-405D-8084-980F0418DC52}
+		{5E238A7D-A0C9-411D-A45D-4E17A5468CB3} = {E7A0F0D9-9FCB-4CCA-A9CF-B0F89772133D}
+	EndGlobalSection
+EndGlobal
