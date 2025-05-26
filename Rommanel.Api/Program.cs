@@ -33,9 +33,22 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(ApplicationAssemblyMarker).Assembly);
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")  // Coloque a URL do seu frontend
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCustomerCommandValidator>();
 
 var app = builder.Build();
+
+app.UseCors("AllowFrontend");
 
 // Ensure DB is created
 using (var scope = app.Services.CreateScope())
