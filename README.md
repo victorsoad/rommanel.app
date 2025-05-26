@@ -7,7 +7,8 @@ Este é um projeto desenvolvido como parte de um desafio técnico, focado na cri
 
 Entity Framework Core — para persistência de dados.
 
-SQLite — banco de dados local, leve e eficiente, ideal para o contexto do desafio técnico.
+SQLite — banco de dados local, leve e eficiente, ideal para o contexto do desafio técnico. 
+  - Localização do banco de dados: Rommanel.Api/Data/rpmmanel.db
 
 FluentValidation — para validação robusta de dados.
 
